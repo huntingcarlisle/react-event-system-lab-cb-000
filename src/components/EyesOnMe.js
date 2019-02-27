@@ -3,9 +3,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 export default class EyesOnMe extends React.Component {
+  focused = () => {
+    console.log("Good!");
+  }
+  
   render() {
     return (
-      <input type='password' />
+      <button onFocus={} onBlur={}></button>
       )
   }
 }
